@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="stylesheet" href="../assets/css/index.css" >
+  </head>
+  <body>
+    <header>
+      <div class="navbar-adv">Discount 10 %</div>
+      <div class="navbar">
+        <div class="logo">
+          <a href="logo">LOGO</a>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rising.html">Product</a></li>
+          <li><a href="health.html">Health Benefit</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="basket.html">Cart</a></li>
+        </ul>
+        <div class="icons">
+          <input placeholder="Search" id="search-input" >
+          <div class="toggle_search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="toggle_btn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="home">
+      <div class="dropdown_menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rising.html">Product</a></li>
+          <li><a href="health.html">Health Benefit</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="basket.html">Cart</a></li>
+        </ul>
+      </div>
+      <div class="dropdown_search">
+        <input placeholder="Search" id="dropdown_search_modal" >
+      </div>
+      <div class="flex">
+        <div class="slider">
+          <a href="#slide-1">1</a>
+          <a href="#slide-2">2</a>
+          <a href="#slide-3">3</a>
+          <a href="#slide-4">4</a>
+          <a href="#slide-5">5</a>
+
+          <div class="slides">
+            <div id="slide-1">
+              <img src="../assets/photos/images%20(1).jpg" alt="image" >
+            </div>
+            <div id="slide-2">
+              <img src="../assets/photos/images%20(10).jpg" alt="image" >
+            </div>
+            <div id="slide-3">
+              <img src="../assets/photos/images%20(3).jpg" alt="image" >
+            </div>
+            <div id="slide-4">
+              <img src="../assets/photos/images%20(4).jpg" alt="image" >
+            </div>
+            <div id="slide-5">
+              <img src="../assets/photos/images%20(7).jpg" alt="image" >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="discountModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h2>Special Discount Offer!</h2>
+          <p>We are excited to offer you a 10% discount on your purchase.</p>
+          <p>Use code: <strong>DISCOUNT10</strong> during checkout.</p>
+          <p>This offer is valid for a limited time. Don't miss out!</p>
+        </div>
+      </div>
+      <div class="txt">
+        <h1>Welcome to standing desk.org</h1>
+        <div class="para">
+          <p>
+            <i
+              class="fa fa-volume-up"
+              id="audioTrigger-first-para"
+              aria-hidden="true"
+            ></i>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Welcome to standing
+            desk.org, where innovation meets wellness. At standing desk.org, we
+            are dedicated to revolutionizing the way you work and enhancing your
+            overall well-being. As pioneers in the ergonomic furniture industry,
+            we understand the importance of a healthy work environment. Our
+            mission is to empower individuals to embrace a more active and
+            dynamic lifestyle by offering cutting-edge standing desk solutions.
+          </p>
+          <audio id="firstAudio">
+            <source
+              src="../assets/audio/1706037326364k2d7fseq-voicemaker.in-speech.mp3"
+              type="audio/mp3"
+            >
+            Your browser does not support the audio element.
+          </audio>
+          <p id="audioTrigger-second-para">
+            <i
+              class="fa fa-volume-up"
+              id="audioTrigger-second-para-duplicate"
+              aria-hidden="true"
+            ></i>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;From sleek designs to
+            customizable features, our desks are crafted with precision and care
+            to cater to the diverse needs of our customers. At the heart of
+            standing desk.org lies a commitment to excellence, ensuring that
+            every product we offer promotes productivity, comfort, and a
+            healthier approach to work. Join us on a journey to elevate your
+            workspace, redefine your workday, and embrace a healthier, more
+            vibrant lifestyle. Experience the future of work with standing
+            desk.org.
+          </p>
+          <audio id="secondAudio">
+            <source
+              src="../assets/audio/1706037354832eyu74lfo-voicemaker.in-speech.mp3"
+              type="audio/mp3"
+            >
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="video">
+        <video controls>
+          <source
+            src="../assets/video/FlexiSpot%20EC1%20Standing%20Desk%20Installation%20Guide.mp4"
+            type="video/mp4"
+          >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </main>
+
+    <br >
+    <footer>
+      <div class="footer_hr"></div>
+      <div class="footer_signUp">
+        <div class="footer_signUp_text">
+          <p class="title">Sign up for newsletter</p>
+          <p class="para">
+            Receive product updates, special offers, ergo tips, and inspiration
+            from our team.
+          </p>
+        </div>
+        <div class="footer_signUp_input">
+          <input
+            id="sign_up_email"
+            type="email"
+            placeholder="Enter your email ...."
+          >
+          <button id="btn_sign_up">SIGN UP</button>
+        </div>
+      </div>
+      <br >
+      <div class="footer_copy_right">
+        <div class="text">
+          <p>
+            © 2023 All Rights Reserved . Privacy Policy . Terms of Service .
+            Accessibility Statement
+          </p>
+        </div>
+        <div class="icon">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-pinterest" aria-hidden="true"></i>
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/home.js"></script>
+  </body>
+</html>
